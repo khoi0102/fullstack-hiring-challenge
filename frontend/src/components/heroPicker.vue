@@ -54,7 +54,7 @@
 					<img
 						v-bind:src="option.avatar"
 						alt="avatar"
-						class="w-6 aspect-square rounded"
+						class="w-6 h-6 round-full ob aspect-square rounded"
 					>
 					<span v-text="option.name"></span>
 				</a>
@@ -79,9 +79,15 @@ const isOpen = ref(false);
 function toggleMenu() {
 	isOpen.value = !isOpen.value;
 }
-
-function setOption(input) {
+// so after doing some research I can see that it bad practice to mutate props directly
+/*function setOption(input) {
 	props.value = input;
 	emit('selected', input);
+}*/
+function setOption(input) {
+	emit('selected', input); // Only emit the event
+	//To fix the issue where the dropdown menu remains open after a hero is selected, we need to close the dropdown after selecting a hero.
+	isOpen.value = false;
 }
+
 </script>
