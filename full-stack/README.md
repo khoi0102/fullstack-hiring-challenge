@@ -18,17 +18,17 @@ There are some issues with this project that need to be investigated and fixed. 
 
 Please complete at least 2 of these challenges.
 
-- [ ] The API to retrieve users is very slow. How can we speed it up while still always returning 10 random users? Please demonstrate a solution.
+- [ ] The API to retrieve users is very slow. How can we speed it up while still always returning 10 random users? Please demonstrate a solution. // still working on it
 
 - [ ] This currently only works in the browser using client-side JavaScript.
 	- How can we make this work with JavaScript disabled? Think about server-side rendering and progressive enhancement. Please demonstrate a solution.
-	- Keep in mind developer experience and ease of use for other team members working on this project. A modern framework would be an example solution.
+	- Keep in mind developer experience and ease of use for other team members working on this project. A modern framework would be an example solution. // Using Next.js to create a server-slide rendering
 
 - [ ] Add a new feature that returns a deterministic list of users, based on a `seed` query param. Currently, 10 (or a specified number) of random users are always returned.
 	- **Note: Please do not use the `seed` functionality built into randomuser.me. Think about another way to do this within a Cloudflare Worker.**
 	- Update the backend to accept a `seed` query param, and use that to generate and store a random user list.
 	- Update the frontend to send that `seed` query param via a textbox.
-	- Any time the same `seed` is used, the same user list should be returned.
+	- Any time the same `seed` is used, the same user list should be returned. //not sure how to go about with this
 
 ## Deployment
 
