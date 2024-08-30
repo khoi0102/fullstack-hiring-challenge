@@ -99,7 +99,9 @@ function handleUpdate(input) {
 				</button>
 			</div>
 			<div v-if="hero" class="bg-slate-400 text-black rounded flex gap-2">
-				<img class="w-52" v-bind:src="hero.avatar">
+				<!--added rounded, object-cover, and fixed dimensions (w-52 h-52) to the image to ensure it matches the
+								container's rounding and maintains a consistent size without distorting when switching heroes-->
+				<img class="w-52 h-52 rounded object-cover" v-bind:src="hero.avatar">
 				<div>
 					<h2 class="uppercase text-xs mb-4">
 						Hero Summary

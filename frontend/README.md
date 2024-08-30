@@ -19,10 +19,10 @@ Must complete all of these challenges:
 - [ ] Fix the dropdown menu from remaining open always after a hero selection is made. //Done
 - [ ] Ensure all hero stats equal a sum of `20` plus the current amount of bonus. This total should never be above `25` with the bonus included. //Done
 - [ ] Add keyboard controls for the drop down hero select button and menu item to be accessible //dont know how to do this
-- [ ] Fix the image so it matches the rounding of its container and doesn’t change width/height when it changes // I'm not familiar with Tailwind css so I don't know how to do this
+- [ ] Fix the image so it matches the rounding of its container and doesn’t change width/height when it changes // Done
 
 Please complete at least 2 of these additional challenges:
 
 - [ ] Implement a "clear hero" feature after a hero selection is made, to return to the default `null` state. //Done
-- [ ] Fix the style so the Selection button doesn’t break line and takes up empty space from the Bonus Button. The fix should not allow the text to overflow into sibling elements //I dont know how to do this
+- [ ] Fix the style so the Selection button doesn’t break line and takes up empty space from the Bonus Button. The fix should not allow the text to overflow into sibling elements //
 - [ ] Make the box centered on the page using just TailwindCSS and a css flex-based solution. // Done
