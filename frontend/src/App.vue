@@ -39,6 +39,13 @@ function doBonus() {
 	if (bonus > 5) {
 		return alert('Only 5 bonus allowed!');
 	}
+	//Add an if statement to check if the bonus is exceed 25, if yes then prevent adding more bonus
+	if (hero.value) {
+		const totalStats = hero.value.speed + hero.value.strength + hero.value.intelligence;
+		if (totalStats + bonus.value >= 25) {
+			return alert('Cannot exceed total of 25 with bonus!');
+		}
+	}
 	bonus++; // increase bonus!
 }
 

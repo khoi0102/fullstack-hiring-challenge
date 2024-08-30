@@ -17,7 +17,7 @@ Must complete all of these challenges:
 
 - [ ] Fix any functional issues with the component that don’t match Vue 3 Component standards and best  pracices outline on the Vue 3 Docs. // not familiar with Vue so only got 1
 - [ ] Fix the dropdown menu from remaining open always after a hero selection is made. //Done
-- [ ] Ensure all hero stats equal a sum of `20` plus the current amount of bonus. This total should never be above `25` with the bonus included. //dont know how to do this
+- [ ] Ensure all hero stats equal a sum of `20` plus the current amount of bonus. This total should never be above `25` with the bonus included. //Done
 - [ ] Add keyboard controls for the drop down hero select button and menu item to be accessible //dont know how to do this
 - [ ] Fix the image so it matches the rounding of its container and doesn’t change width/height when it changes // I'm not familiar with Tailwind css so I don't know how to do this
 
